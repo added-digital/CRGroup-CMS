@@ -1430,6 +1430,7 @@ export interface ApiVerksamheterContentVerksamheterContent
     singularName: 'verksamheter-content';
     pluralName: 'verksamheter-contents';
     displayName: 'VerksamheterContent';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1452,7 +1453,7 @@ export interface ApiVerksamheterContentVerksamheterContent
           localized: true;
         };
       }>;
-    Text: Attribute.String &
+    Text: Attribute.Text &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
