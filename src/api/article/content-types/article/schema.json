@@ -24,30 +24,6 @@
       },
       "type": "string"
     },
-    "ParagraphOne": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
-    "TitelTwo": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "ParagraphTwo": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
     "Image": {
       "type": "media",
       "multiple": false,
@@ -64,22 +40,6 @@
         }
       }
     },
-    "Underrubrik": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "ParagraphThree": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
     "Date": {
       "pluginOptions": {
         "i18n": {
@@ -87,6 +47,14 @@
         }
       },
       "type": "date"
+    },
+    "ArticleText": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
