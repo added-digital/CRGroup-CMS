@@ -791,43 +791,19 @@ export interface ApiArticleArticle extends Schema.CollectionType {
           localized: true;
         };
       }>;
-    ParagraphOne: Attribute.Text &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    TitelTwo: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    ParagraphTwo: Attribute.Text &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     Image: Attribute.Media &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    Underrubrik: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    ParagraphThree: Attribute.Text &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     Date: Attribute.Date &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    ArticleText: Attribute.RichText &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -1430,6 +1406,7 @@ export interface ApiVerksamheterContentVerksamheterContent
     singularName: 'verksamheter-content';
     pluralName: 'verksamheter-contents';
     displayName: 'VerksamheterContent';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1452,7 +1429,7 @@ export interface ApiVerksamheterContentVerksamheterContent
           localized: true;
         };
       }>;
-    Text: Attribute.String &
+    Text: Attribute.Text &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;

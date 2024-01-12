@@ -4,7 +4,8 @@
   "info": {
     "singularName": "verksamheter-content",
     "pluralName": "verksamheter-contents",
-    "displayName": "VerksamheterContent"
+    "displayName": "VerksamheterContent",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -37,7 +38,7 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "text"
     }
   }
 }
